@@ -59,8 +59,18 @@ h2, h5{
     transition: color .1s linear;
 }
 
+.nav_link_t{
+    filter: brightness(0) invert(1);
+    transition: color .1s linear;
+}
+
+.nav_link_t:hover{
+    filter: brightness(0.15) invert(1);
+}
+
 .nav_link:hover{
     color: #daecf4;
+    /* text-decoration:underline; */
 }
 
 .nav_tel_link{
