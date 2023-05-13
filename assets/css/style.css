@@ -88,10 +88,27 @@ h2, h5{
     transition: color .1s linear;
 }
 
-.nav_p_link:hover, .nav_tel_link:hover{
+.nav_p_link:hover, .nav_tel_link:hover, .nav_prod:hover, .nav_prod_t:hover{
     color: #4786a1;
 }
-/* Text setting */
+
+.nav_prod{
+    font-size: 20pt;
+    font-weight: 1000;
+    color: #0f658a;
+    text-decoration:underline;
+    text-align: left;
+    transition: color .1s linear;
+}
+
+.nav_prod_t{
+    font-size: 15pt;
+    font-weight: 1000;
+    color: #0f658a;
+    text-decoration:underline;
+    text-align: left;
+    transition: color .1s linear;
+}
 
 .text{
     color: #0f658a;
@@ -137,10 +154,27 @@ h2, h5{
 
 
 
+/* Table */
+table {
+    border: 2px solid rgb(134, 98, 188);
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 2px solid  rgb(134, 98, 188);
+    
+    text-align: center;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 2px solid  rgb(134, 98, 188);
+    text-align: center;
+ }
 
+/* lists */
 
-
-
+li {
+    margin-bottom: 10px;
+}
 
 
 /* Colored blocks */
